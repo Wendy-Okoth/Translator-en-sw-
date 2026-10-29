@@ -1,31 +1,31 @@
-# --- Python ---
+# Python
 __pycache__/
 *.py[cod]
 *.egg-info/
 .Python
 
-# --- Virtual environment ---
+# Virtual environment
 swahili-translator-env/
 venv/
 env/
 
-# --- Model files (too large for GitHub) ---
+# Model files (hosted on Hugging Face Hub instead)
 finetuned-en-sw-final/
 finetuned-en-sw-final.zip
 *.safetensors
 *.bin
 *.spm
 
-# --- Hugging Face / cache ---
+# Hugging Face cache
 .cache/
 *.lock
 
-# --- OS & IDE ---
+# OS & IDE
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
 
-# --- Gradio temp / logs ---
+# Gradio temp
 gradio_cached_examples/
 *.log
